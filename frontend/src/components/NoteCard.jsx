@@ -83,7 +83,7 @@ const NoteCard = ({ note, setNotes }) => {
                 onClick={(e) => {
                   e.preventDefault();
                   e.stopPropagation(); // prevent navigating to note detail
-                  navigate(`/note/edit/${note._id}`);
+                  navigate(`/note/${note._id}`);
                 }}
                 className="text-base-content hover:text-primary"
               >
